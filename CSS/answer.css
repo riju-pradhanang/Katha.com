@@ -1,0 +1,184 @@
+.card {
+    background-color: #262626;
+    color: #fff;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.post-card {
+    transition: transform 0.2s;
+}
+
+.post-card:hover {
+    transform: translateY(-5px);
+}
+
+.btn-vote, .btn-comment {
+    background: none;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn-comment {
+    margin-left: 10px;
+}
+
+#postsList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+aside h4 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.category-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.category-list li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.category-list li:hover {
+    color: red;
+}
+
+.row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.row.no-gutters > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.no-posts-message {
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.post-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.attachment-link {
+    color: red;
+    text-decoration: none;
+}
+
+.attachment-link:hover {
+    text-decoration: underline;
+}
+
+.vote-counts {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.comment-form {
+    margin-top: 15px;
+}
+
+.comment-form textarea {
+    background-color: #262626;
+    color: #fff;
+    border: 1px solid #4a5556;
+    width: 100%;
+}
+
+.comment-form textarea:focus {
+    background-color: #262626;
+    color: #fff;
+    border: 1px solid #4a5556;
+    outline: none;
+    box-shadow: none;
+}
+
+.comment-form button {
+    margin-top: 10px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.comment-form button:hover {
+    background-color: red;
+}
+
+.comments-section {
+    margin-top: 15px;
+}
+
+.comment {
+    margin-top: 10px;
+}
+
+.comment-username {
+    font-weight: bold;
+    color: red;
+}
+
+.modal-content {
+    background-color: #262626;
+    color: #fff;
+    border: 1px solid #4a5556;
+}
+
+.modal-header {
+    border-bottom: 1px solid #4a5556;
+}
+
+.modal-footer {
+    border-top: 1px solid #4a5556;
+}
+
+.form-control {
+    background-color: #262626;
+    color: #fff;
+    border: 1px solid #4a5556;
+    margin-top: 5px;
+}
+
+.form-control:focus {
+    background-color: #262626;
+    color: #fff;
+    border: 1px solid #4a5556;
+    outline: none;
+    box-shadow: none;
+}
+
+.invalid-feedback {
+    color: red;
+    display: block;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.post-username {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 0.9em;
+    color: #ccc;
+}

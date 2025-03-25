@@ -1,0 +1,51 @@
+.main {
+    background-color: #181818;
+}
+
+.btn-clear {
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+
+.btn-clear:hover {
+    color: red;
+}
+
+#login-message {
+    text-align: center;
+}
+
+.modal-content {
+    background-color: #262626;
+    color: #fff;
+    border: 1px solid #4a5556;
+}
+
+.modal-header {
+    border-bottom: 1px solid #4a5556;
+}
+
+.modal-footer {
+    border-top: 1px solid #4a5556;
+}
+
+.form-control {
+    background-color: #262626;
+    color: #fff;
+    border: 1px solid #4a5556;
+    margin-top: 5px;
+}
+
+.invalid-feedback {
+    color: red;
+    display: block;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
